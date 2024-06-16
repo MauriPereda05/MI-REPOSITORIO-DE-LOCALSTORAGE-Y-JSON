@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <form id="FormElement">
+
+        <div>
+            <label>Titulo del estudiante</label>
+            <input type="text" id="titleInput">
+        </div>
+
+        <div>
+            <label>Nota del estudiante</label>
+            <input type="text" id="contentInput">
+        </div>
+
+        <button type="submit">Agregar Nota</button>
+    </form>
+
+    <div class="container">
+        <table class="tableta">
+            <thead>
+                <tr>
+                    <th>Título</th>
+                    <th>Nota</th>
+                    <th>Accion</th>
+                </tr>
+            </thead>
+            <tbody id="notesTableBody"></tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
